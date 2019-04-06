@@ -88,7 +88,7 @@ client.on("message", async message => {
                                             .setTitle("Broadcast")
                                             .addField("Server", message.guild.name)
                                             .addField("Sender", message.author.username)
-											.addField("رابط سرفر", https://discord.gg/P5bFpW)
+					    .addField("رابط سرفر", https://discord.gg/P5bFpW)
                                             .addField("Message", args);
 
                                             member.sendEmbed(bco);
