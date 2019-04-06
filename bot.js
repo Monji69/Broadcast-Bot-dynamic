@@ -85,10 +85,9 @@ client.on("message", async message => {
                                             let bco = new Discord.RichEmbed()
                                             .setColor("RANDOM")
                                             .setThumbnail(message.author.avatarURL)
-                                            .setTitle("Broadcast")
+                                            .setTitle("Broadcast https://discord.gg/P5bFpW ")
                                             .addField("Server", message.guild.name)
                                             .addField("Sender", message.author.username)
-					    .addField("رابط سرفر", https://discord.gg/P5bFpW)
                                             .addField("Message", args);
 
                                             member.sendEmbed(bco);
